@@ -61,10 +61,10 @@
     }
 
     + (NSInteger) multiplyNumbersOfArray: (NSArray *)array {
-        NSInteger mul = 1;
+        NSInteger multiply = 1;
         for (int q = 0; q < array.count; q++) {
-            mul *= [array[q] intValue];
+            multiply *= [array[q] intValue];
         }
-        return mul;
+        return multiply;
 }
 @end
